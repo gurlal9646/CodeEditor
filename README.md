@@ -1,6 +1,6 @@
 # Code Editor for HTML, CSS, and JavaScript using CodeMirror
 
-![Code Editor Screenshot](screenshot.png)
+![Code Editor Screenshot](https://github.com/gurlal9646/CodeEditor/blob/main/codeditor.png)
 
 ## Description
 
