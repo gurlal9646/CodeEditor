@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/panda-syntax.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/addon/hint/show-hint.min.css">  
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">
+                <div class="main-title">
+                    Code Editor
+                </div>
+                <div class="sub-title">
+                    <span>Created By</span> <a href="https://gurlalresume.netlify.com" target="_blank">Gurlal Singh</a>
+                </div>
+            </div>          
+        </div>
+        <div class="code-box">
+            <div class="editor" id="html">HTML</div>
+            <div class="editor" id="css">CSS</div>
+            <div class="editor" id="js">javaScript</div>
+        </div>
+        <div class="preview">
+            <iframe id="live-preview"></iframe>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/htmlmixed/htmlmixed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/css/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/javascript/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/addon/edit/closetag.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/addon/edit/closebrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/addon/hint/show-hint.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
